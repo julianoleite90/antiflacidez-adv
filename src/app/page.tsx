@@ -52,12 +52,6 @@ export default function Home() {
           </div>
           
           {/* Conteúdo do footer */}
-          <div className="mb-6">
-            <h3 className="text-xl font-semibold mb-3">Análise Especializada de Emagrecedores</h3>
-            <p className="text-gray-300 text-sm max-w-2xl mx-auto leading-relaxed">
-              Informações baseadas em análises técnicas e avaliações de especialistas para ajudar você a fazer a melhor escolha.
-            </p>
-          </div>
           
           {/* Links úteis */}
           <div className="grid grid-cols-1 md:grid-cols-3 gap-6 mb-8 text-sm">
