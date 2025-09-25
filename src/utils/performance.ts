@@ -127,8 +127,8 @@ export function initPerformanceOptimizations() {
   setTimeout(() => {
     // Prefetch de imagens do ranking (não críticas)
     prefetchResource('/phynamax-mockup.png');
-    prefetchResource('/ozenvitta-400.webp');
-    prefetchResource('/definamax-400.webp');
+    prefetchResource('/ozenvitta-400.png');
+    prefetchResource('/definamax-400.png');
     prefetchResource('/sb2-400.webp');
     prefetchResource('/newdetox-400.webp');
   }, 2000);

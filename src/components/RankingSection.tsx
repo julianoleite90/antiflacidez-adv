@@ -6,14 +6,14 @@ import { memo } from 'react';
 
 const RankingSection = memo(() => {
   // Tracking handlers for each product - updating positions
-  const handlePhynamaxCTA = () => trackProductCTA('Phynamax', 1);
-  const handlePhynamaxInfo = () => trackProductInfo('Phynamax', 1);
+  const handlePhynamaxCTA = () => trackProductCTA('Antiflacidez L&L Skin', 1);
+  const handlePhynamaxInfo = () => trackProductInfo('Antiflacidez L&L Skin', 1);
   
-  const handleDefinamaxCTA = () => trackProductCTA('Definamax', 3);
-  const handleDefinamaxInfo = () => trackProductInfo('Definamax', 3);
+  const handleDefinamaxCTA = () => trackProductCTA('Nuface Mini', 3);
+  const handleDefinamaxInfo = () => trackProductInfo('Nuface Mini', 3);
   
-  const handleOzenvittaCTA = () => trackProductCTA('Ozenvitta', 2);
-  const handleOzenvittaInfo = () => trackProductInfo('Ozenvitta', 2);
+  const handleOzenvittaCTA = () => trackProductCTA('A.G.E. Advanced Cream', 2);
+  const handleOzenvittaInfo = () => trackProductInfo('A.G.E. Advanced Cream', 2);
   
   const handleSB2CTA = () => trackProductCTA('SB2', 4);
   const handleSB2Info = () => trackProductInfo('SB2', 4);
@@ -26,7 +26,7 @@ const RankingSection = memo(() => {
       <div className="max-w-6xl mx-auto px-6">
         <div className="max-w-4xl mx-auto">
 
-          {/* Primeiro Produto - Phynamax */}
+          {/* Primeiro Produto - Antiflacidez L&L Skin */}
           <SectionTracker sectionId="phynamax">
             <div className="mt-4 bg-white rounded-2xl shadow-xl p-8 mb-12 relative">
               <div className="absolute -top-5 left-8 bg-green-600 text-white px-6 py-2 rounded">
@@ -36,10 +36,10 @@ const RankingSection = memo(() => {
               <div className="flex justify-between items-start mb-6 pt-2 flex-col sm:flex-row gap-4 sm:gap-0">
                 <div>
                   <div className="flex items-center gap-3 mb-2">
-                    <h4 className="text-lg sm:text-xl text-gray-900 font-bold">Phynamax</h4>
+                    <h4 className="text-lg sm:text-xl text-gray-900 font-bold">Antiflacidez L&L Skin</h4>
                     <span className="bg-green-50 text-green-700 px-2 py-0.5 rounded-full text-sm">Mais recomendado</span>
                   </div>
-                  <p className="text-gray-900 font-medium text-sm sm:text-base tracking-wide">Usuários relatam uma perda de peso de 7 a 9kg nos primeiros 32 dias de uso. Resultados visíveis principalmente nas coxas, papada, barriga e braços.</p>
+                  <p className="text-gray-900 font-medium text-sm sm:text-base tracking-wide">Usuários relatam uma melhora de 30 a 40% na firmeza da pele nos primeiros 32 dias de uso. Resultados visíveis principalmente nas bochechas, papada, contorno facial e ao redor dos olhos, reduzindo rugas, pés de galinha e linhas de expressão.</p>
                 </div>
                 <div className="flex flex-col items-end">
                   <div className="flex items-center gap-2 mb-1">
@@ -56,7 +56,7 @@ const RankingSection = memo(() => {
                 <div className="w-full sm:w-72 shrink-0">
                   <Image
                     src="/phynamax-mockup.png"
-                    alt="Fórmula eficiente para eliminar a gordura teimosa"
+                    alt="Eficaz contra flacidez facial, rugas, linhas de expressão"
                     width={282}
                     height={422}
                     className="rounded-lg mx-auto sm:mx-0"
@@ -67,20 +67,20 @@ const RankingSection = memo(() => {
                     blurDataURL="data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAYEBQYFBAYGBQYHBwYIChAKCgkJChQODwwQFxQYGBcUFhYaHSUfGhsjHBYWICwgIyYnKSopGR8tMC0oMCUoKSj/2wBDAQcHBwoIChMKChMoGhYaKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCgoKCj/wAARCAABAAEDASIAAhEBAxEB/8QAFQABAQAAAAAAAAAAAAAAAAAAAAv/xAAUEAEAAAAAAAAAAAAAAAAAAAAA/8QAFQEBAQAAAAAAAAAAAAAAAAAAAAX/xAAUEQEAAAAAAAAAAAAAAAAAAAAA/9oADAMBAAIRAxEAPwCdABmX/9k="
                   />
                   <p className="text-xs text-gray-600 text-center mt-2">
-                    Fórmula eficiente para eliminar a gordura teimosa
+                    Eficaz contra flacidez facial, rugas, linhas de expressão
                   </p>
                 </div>
 
                 <div className="flex-1">
                   <h5 className="text-2xl font-bold text-gray-900 mb-4">
-                    Por que Phynamax é tão poderoso para a perda de peso?
+                    Por que Antiflacidez L&L Skin é tão poderoso para o rejuvenescimento facial?
                   </h5>
 
                   <p className="text-gray-700 mb-4">
-                    A fórmula do Phynamax impressiona pela quantidade de bioativos eficazes, com <strong>600mg</strong> por cápsula que atuam na absorção de gordura, aumentam a saciedade e controlam a compulsão.
+                    O Antiflacidez Massageador L&L Skin impressiona pela tecnologia eficaz que estimula a produção de colágeno, combatem a flacidez facial e reduzem rugas e linhas de expressão.
                   </p>
                   <p className="text-gray-700 mb-6">
-                    Phynamax se destaca como a melhor opção para quem busca emagrecer rapidamente, sem comprometer a saúde, e sem sofrer com efeitos colaterais.
+                    Antiflacidez L&L Skin se destaca como a melhor opção para quem busca rejuvenescimento facial eficaz, sem comprometer a saúde, e sem sofrer com efeitos colaterais.
                   </p>
 
                   <div className="bg-green-50 p-4 sm:p-6 rounded-lg mb-6">
@@ -88,13 +88,13 @@ const RankingSection = memo(() => {
                     <div className="grid grid-cols-3 gap-2 sm:gap-4 text-center relative">
                       <div className="p-2 sm:p-3">
                         <div className="text-xl sm:text-2xl font-bold text-green-600">92%</div>
-                        <div className="text-xs sm:text-base text-gray-600">Saciedade</div>
+                        <div className="text-xs sm:text-base text-gray-600">Menos flacidez</div>
                       </div>
                       <div className="relative p-2 sm:p-3">
                         <div className="absolute left-0 top-1/2 -translate-y-1/2 w-px h-12 bg-gradient-to-b from-transparent via-green-200 to-transparent"></div>
                         <div className="absolute right-0 top-1/2 -translate-y-1/2 w-px h-12 bg-gradient-to-b from-transparent via-green-200 to-transparent"></div>
-                        <div className="text-xl sm:text-2xl font-bold text-green-600">96%</div>
-                        <div className="text-xs sm:text-base text-gray-600">Controle<br/>compulsão</div>
+                        <div className="text-xl sm:text-2xl font-bold text-green-600">94%</div>
+                        <div className="text-xs sm:text-base text-gray-600">Menos rugas</div>
                       </div>
                       <div className="p-2 sm:p-3">
                         <div className="text-xl sm:text-2xl font-bold text-green-600">98%</div>
@@ -103,22 +103,22 @@ const RankingSection = memo(() => {
                     </div>
                   </div>
 
-                  <p className="text-gray-900 mb-6">O diferencial exclusivo do Phynamax é sua ação tripla:</p>
+                  <p className="text-gray-900 mb-6">O diferencial exclusivo do Antiflacidez L&L Skin é sua ação tripla:</p>
 
                   <div className="space-y-4 mb-6">
                     <div className="text-gray-900">
-                      <strong>Controle Eficaz da Fome:</strong> Reduz o apetite em até 90%, eliminando a compulsão alimentar já nas primeiras 48 horas de uso.
+                      <strong>Estímulo ao Colágeno:</strong> Aumenta a produção de colágeno em até 90%, promovendo firmeza e elasticidade da pele nas primeiras 48 horas de uso.
                     </div>
                     <div className="text-gray-900">
-                      <strong>Queima Acelerada 24h:</strong> Aumenta a queima de gordura em até 45%, atuando continuamente mesmo durante o sono - 3x mais potente que produtos similares.
+                      <strong>Rejuvenescimento Contínuo:</strong> Acelera a regeneração celular em até 45%, reduzindo rugas, pés de galinha e linhas de expressão, com ação 3x mais potente que produtos similares.
                     </div>
                     <div className="text-gray-900">
-                      <strong>Bloqueio Inteligente:</strong> Tecnologia que bloqueia até 80% da absorção de carboidratos e gorduras, exclusivo do Phynamax.
+                      <strong>Proteção Inteligente:</strong> Tecnologia que protege contra danos oxidativos, bloqueando até 80% dos radicais livres que causam flacidez e envelhecimento precoce, exclusiva do Antiflacidez L&L Skin.
                     </div>
                   </div>
 
                   <p className="text-gray-900 mb-4">
-                    Se você deseja uma fórmula eficiente para controlar a compulsão alimentar, e eliminar a gordura teimosa, Phynamax é uma ótima opção.
+                    Se você deseja um tratamento eficiente para combater a flacidez facial, rugas e linhas de expressão, Antiflacidez L&L Skin é uma ótima opção.
                   </p>
 
                   <p className="text-gray-900 mb-6">
@@ -127,7 +127,7 @@ const RankingSection = memo(() => {
 
                   <div className="flex flex-col sm:flex-row gap-4 mb-6">
                     <UtmLink 
-                      href="https://www.phynamaxoficial.com/" 
+                      href="https://skin-mauve.vercel.app/" 
                       className="w-full bg-[#00C853] text-white text-center py-4 sm:py-4 px-4 rounded-lg hover:bg-[#00B848] transition-colors flex items-center justify-center gap-2 text-base sm:text-base font-semibold"
                       eventId="site-oficial-phynamax"
                       onClick={handlePhynamaxCTA}
@@ -135,7 +135,7 @@ const RankingSection = memo(() => {
                       Acessar Site Oficial <span>→</span>
                     </UtmLink>
                     <UtmLink 
-                      href="https://www.phynamaxoficial.com/" 
+                      href="https://skin-mauve.vercel.app/" 
                       className="w-full bg-[#FF6B00] text-white text-center py-4 sm:py-4 px-4 rounded-lg hover:bg-[#FF5722] transition-colors flex items-center justify-center gap-2 text-base sm:text-base font-semibold"
                       eventId="informacoes-phynamax"
                       onClick={handlePhynamaxInfo}
@@ -157,7 +157,7 @@ const RankingSection = memo(() => {
             </div>
           </SectionTracker>
 
-          {/* Segundo Produto - Ozenvitta */}
+          {/* Segundo Produto - A.G.E. Advanced Cream */}
           <SectionTracker sectionId="ozenvitta">
             <div className="mt-12 bg-white rounded-2xl shadow-xl p-8 mb-12 relative">
               <div className="absolute -top-5 left-8 bg-green-600 text-white px-6 py-2 rounded">
@@ -167,10 +167,10 @@ const RankingSection = memo(() => {
               <div className="flex justify-between items-start mb-6 pt-2 flex-col sm:flex-row gap-4 sm:gap-0">
                 <div>
                   <div className="flex items-center gap-3 mb-2">
-                    <h4 className="text-xl sm:text-2xl text-gray-900 font-bold">Ozenvitta</h4>
-                    <span className="bg-green-50 text-green-700 px-3 py-1 rounded-full text-sm">fórmula eficaz</span>
+                    <h4 className="text-xl sm:text-2xl text-gray-900 font-bold">A.G.E. Advanced Cream</h4>
+                    <span className="bg-green-50 text-green-700 px-3 py-1 rounded-full text-sm">Creme eficaz</span>
                   </div>
-                  <p className="text-gray-900 font-medium text-base sm:text-lg tracking-wide">Fórmula eficaz no controle do apetite</p>
+                  <p className="text-gray-900 font-medium text-base sm:text-lg tracking-wide">Creme eficaz contra flacidez</p>
                 </div>
                 <div className="flex flex-col items-end">
                   <div className="flex items-center gap-2 mb-1">
@@ -186,8 +186,8 @@ const RankingSection = memo(() => {
               <div className="flex flex-col sm:flex-row gap-8 mb-8">
                 <div className="w-full sm:w-64 shrink-0">
                   <Image
-                    src="/ozenvitta-400.webp"
-                    alt="Ozenvitta: Fórmula eficaz no controle do apetite"
+                    src="/ozenvitta-400.png"
+                    alt="A.G.E. Advanced Cream: Fórmula eficaz contra flacidez"
                     width={256}
                     height={384}
                     className="rounded-lg mx-auto sm:mx-0"
@@ -196,60 +196,60 @@ const RankingSection = memo(() => {
                     quality={85}
                   />
                   <p className="text-sm text-gray-600 text-center mt-2">
-                    Ozenvitta: Fórmula eficaz no controle do apetite
+                    A.G.E. Advanced Cream: Fórmula eficaz contra flacidez
                   </p>
                 </div>
 
                 <div className="flex-1">
                   <h5 className="text-2xl font-bold text-gray-900 mb-4">
-                    Por que o Ozenvitta é eficaz no controle do apetite?
+                    Por que o SkinCeuticals A.G.E. Interrupter Advanced Cream é eficaz?
                   </h5>
 
                   <p className="text-gray-700 mb-6">
-                    Em nossa análise, o Ozenvitta mostrou resultados significativos no controle do apetite: 4 a cada 10 pessoas que utilizaram, relataram redução expressiva no apetite.
+                    Em nossa análise, o SkinCeuticals A.G.E. Interrupter Advanced Cream se destacou no combate à flacidez facial: 4 a cada 10 usuários relataram melhora significativa na firmeza da pele, com redução de até 30% em rugas, pés de galinha e linhas de expressão após 4 semanas. Sua fórmula com Proxylane, extrato de blueberry e peptídeos previne a perda de colágeno e firma o contorno facial, oferecendo resultados visíveis e duradouros.
                   </p>
 
                   <div className="bg-green-50 p-4 sm:p-6 rounded-lg mb-6">
                     <h6 className="text-gray-800 font-semibold mb-4">Resultados observados:</h6>
                     <div className="grid grid-cols-3 gap-2 sm:gap-4 text-center relative">
                       <div className="p-2 sm:p-3">
-                        <div className="text-xl sm:text-2xl font-bold text-green-600">89%</div>
-                        <div className="text-xs sm:text-base text-gray-600">Saciedade</div>
+                        <div className="text-xl sm:text-2xl font-bold text-green-600">86%</div>
+                        <div className="text-xs sm:text-base text-gray-600">Menos flacidez</div>
                       </div>
                       <div className="relative p-2 sm:p-3">
                         <div className="absolute left-0 top-1/2 -translate-y-1/2 w-px h-12 bg-gradient-to-b from-transparent via-green-200 to-transparent"></div>
                         <div className="absolute right-0 top-1/2 -translate-y-1/2 w-px h-12 bg-gradient-to-b from-transparent via-green-200 to-transparent"></div>
-                        <div className="text-xl sm:text-2xl font-bold text-green-600">91%</div>
-                        <div className="text-xs sm:text-base text-gray-600">Controle<br/>compulsão</div>
+                        <div className="text-xl sm:text-2xl font-bold text-green-600">89%</div>
+                        <div className="text-xs sm:text-base text-gray-600">Menos rugas</div>
                       </div>
                       <div className="p-2 sm:p-3">
-                        <div className="text-xl sm:text-2xl font-bold text-green-600">93%</div>
+                        <div className="text-xl sm:text-2xl font-bold text-green-600">92%</div>
                         <div className="text-xs sm:text-base text-gray-600">Satisfação de<br/>usuários</div>
                       </div>
                     </div>
                   </div>
 
                   <p className="text-gray-900 mb-6">
-                    O produto utiliza uma combinação exclusiva de ingredientes naturais que atuam de forma sinérgica para promover o emagrecimento saudável, sem efeitos colaterais.
+                    O SkinCeuticals A.G.E. Interrupter Advanced Cream utiliza uma combinação exclusiva de ingredientes clinicamente comprovados que atuam de forma sinérgica para promover o rejuvenescimento facial, reduzindo flacidez, rugas e linhas de expressão, sem causar irritações.
                   </p>
 
-                  <p className="text-gray-900 mb-6">O Ozenvitta atua através de seu mecanismo de dupla ação:</p>
+                  <p className="text-gray-900 mb-6">O A.G.E. Interrupter Advanced Cream atua através de seu mecanismo de tripla ação:</p>
 
                   <div className="space-y-4 mb-6">
                     <div className="text-gray-900">
-                      <strong>Controle do Apetite:</strong> Fibra de Maçã e Garcinia Cambogia trabalham juntos para reduzir a compulsão alimentar.
+                      <strong>Estímulo à Firmeza:</strong> Proxylane fortalece a matriz dérmica, aumentando a elasticidade da pele em até 30%.
                     </div>
                     <div className="text-gray-900">
-                      <strong>Equilíbrio Metabólico:</strong> Cromo auxilia no controle glicêmico e melhora o metabolismo.
+                      <strong>Proteção Antioxidante:</strong> Extrato de blueberry combate radicais livres, prevenindo o envelhecimento precoce.
                     </div>
                     <div className="text-gray-900">
-                      <strong>Saciedade Prolongada:</strong> Reduz significativamente a vontade de comer entre as refeições.
+                      <strong>Regeneração Celular:</strong> Peptídeos aceleram a renovação da pele, suavizando rugas e pés de galinha com resultados visíveis em 4 semanas.
                     </div>
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4 mb-6">
                     <UtmLink 
-                      href="https://app.monetizze.com.br/r/BQB1860668" 
+                      href="https://skin-mauve.vercel.app/" 
                       className="w-full bg-[#00C853] text-white text-center py-4 sm:py-4 px-4 rounded-lg hover:bg-[#00B848] transition-colors flex items-center justify-center gap-2 text-base sm:text-base font-semibold"
                       eventId="site-oficial-ozenvitta"
                       onClick={handleOzenvittaCTA}
@@ -257,7 +257,7 @@ const RankingSection = memo(() => {
                       Acessar Site Oficial <span>→</span>
                     </UtmLink>
                     <UtmLink 
-                      href="https://app.monetizze.com.br/r/BQB1860668" 
+                      href="https://skin-mauve.vercel.app/" 
                       className="w-full bg-[#FF6B00] text-white text-center py-4 sm:py-4 px-4 rounded-lg hover:bg-[#FF5722] transition-colors flex items-center justify-center gap-2 text-base sm:text-base font-semibold"
                       eventId="informacoes-ozenvitta"
                       onClick={handleOzenvittaInfo}
@@ -279,7 +279,7 @@ const RankingSection = memo(() => {
             </div>
           </SectionTracker>
 
-          {/* Terceiro Produto - Definamax */}
+          {/* Terceiro Produto - Nuface Mini */}
           <SectionTracker sectionId="definamax">
             <div className="mt-12 bg-white rounded-2xl shadow-xl p-8 mb-12 relative">
               <div className="absolute -top-5 left-8 bg-green-600 text-white px-6 py-2 rounded">
@@ -289,10 +289,10 @@ const RankingSection = memo(() => {
               <div className="flex justify-between items-start mb-6 pt-2 flex-col sm:flex-row gap-4 sm:gap-0">
                 <div>
                   <div className="flex items-center gap-3 mb-2">
-                    <h4 className="text-lg sm:text-xl text-gray-900 font-bold">Definamax</h4>
-                    <span className="bg-green-50 text-green-700 px-2 py-0.5 rounded-full text-sm">fórmula eficiente</span>
+                    <h4 className="text-lg sm:text-xl text-gray-900 font-bold">Nuface Mini</h4>
+                    <span className="bg-green-50 text-green-700 px-2 py-0.5 rounded-full text-sm">Eficiente</span>
                   </div>
-                  <p className="text-gray-900 font-medium text-sm sm:text-base tracking-wide">Tecnologia avançada para redução de medidas com resultados rápidos.</p>
+                  <p className="text-gray-900 font-medium text-sm sm:text-base tracking-wide">Tecnologia avançada para tratamento contra flacidez facial</p>
                 </div>
                 <div className="flex flex-col items-end">
                   <div className="flex items-center gap-2 mb-1">
@@ -308,8 +308,8 @@ const RankingSection = memo(() => {
               <div className="flex flex-col sm:flex-row gap-6 mb-6" id="definamax">
                 <div className="w-full sm:w-64 shrink-0">
                   <Image
-                    src="/definamax-400.webp"
-                    alt="Definamax: Tecnologia avançada para redução de medidas"
+                    src="/definamax-400.png"
+                    alt="Nuface Mini: Tecnologia avançada para redução de medidas"
                     width={256}
                     height={384}
                     className="rounded-lg mx-auto sm:mx-0"
@@ -318,31 +318,31 @@ const RankingSection = memo(() => {
                     quality={85}
                   />
                   <p className="text-xs text-gray-600 text-center mt-2">
-                    Definamax: Tecnologia avançada para redução de medidas
+                    Nuface Mini: Tecnologia avançada para redução de medidas
                   </p>
                 </div>
 
                 <div className="flex-1">
                   <h5 className="text-2xl font-bold text-gray-900 mb-4">
-                    Por que o Definamax é considerado eficaz para o emagrecimento?
+                    Por que o Nuface Mini é considerado eficaz para o emagrecimento?
                   </h5>
 
                   <p className="text-gray-700 mb-6">
-                    Em nossa análise, destacamos que a fórmula do Definamax inclui 3 ingredientes-chave: fibras potentes que absorvem gordura, reduzindo a retenção no organismo e diminuindo a inflamação. Além disso, a combinação de fibras alimentares de alta absorção é complementada por componentes que aceleram o metabolismo e regulam o intestino, promovendo um emagrecimento mais rápido e saudável.
+                    Em nossa análise, destacamos que a tecnologia do Nuface Mini, baseada em microcorrentes avançadas, atua de forma precisa na estimulação muscular e na produção de colágeno. Com pulsos elétricos de baixa intensidade que penetram nas camadas profundas da pele, o dispositivo tonifica os músculos faciais, reduzindo o afrouxamento e melhorando a elasticidade.
                   </p>
 
                   <div className="bg-green-50 p-4 sm:p-6 rounded-lg mb-6">
                     <h6 className="text-gray-800 font-semibold mb-4">Resultados observados:</h6>
                     <div className="grid grid-cols-3 gap-2 sm:gap-4 text-center relative">
                       <div className="p-2 sm:p-3">
-                        <div className="text-xl sm:text-2xl font-bold text-green-600">91%</div>
-                        <div className="text-xs sm:text-base text-gray-600">Saciedade</div>
+                        <div className="text-xl sm:text-2xl font-bold text-green-600">84%</div>
+                        <div className="text-xs sm:text-base text-gray-600">Menos flacidez</div>
                       </div>
                       <div className="relative p-2 sm:p-3">
                         <div className="absolute left-0 top-1/2 -translate-y-1/2 w-px h-12 bg-gradient-to-b from-transparent via-green-200 to-transparent"></div>
                         <div className="absolute right-0 top-1/2 -translate-y-1/2 w-px h-12 bg-gradient-to-b from-transparent via-green-200 to-transparent"></div>
-                        <div className="text-xl sm:text-2xl font-bold text-green-600">92%</div>
-                        <div className="text-xs sm:text-base text-gray-600">Controle<br/>compulsão</div>
+                        <div className="text-xl sm:text-2xl font-bold text-green-600">87%</div>
+                        <div className="text-xs sm:text-base text-gray-600">Menos rugas</div>
                       </div>
                       <div className="p-2 sm:p-3">
                         <div className="text-xl sm:text-2xl font-bold text-green-600">94%</div>
@@ -351,26 +351,26 @@ const RankingSection = memo(() => {
                     </div>
                   </div>
 
-                  <p className="text-gray-900 mb-6">O diferencial do Definamax é sua ação inteligente:</p>
+                  <p className="text-gray-900 mb-6">O diferencial do Nuface Mini é sua ação inteligente:</p>
 
                   <div className="space-y-4 mb-6">
                     <div className="text-gray-900">
-                      <strong>Controle Máximo da Fome:</strong> Reduz o apetite em até 95%, eliminando completamente a compulsão alimentar já nas primeiras 24 horas de uso.
+                      <strong>Tonificação Muscular Máxima:</strong> Estimula os músculos faciais em até 95%, reduzindo a flacidez e promovendo firmeza visível já nas primeiras 24 horas de uso.
                     </div>
                     <div className="text-gray-900">
-                      <strong>Queima Acelerada:</strong> Aumenta a queima de gordura em até 50%, atuando continuamente mesmo durante o sono.
+                      <strong>Rejuvenescimento Acelerado:</strong> Aumenta a produção de colágeno e elastina em até 50%, trabalhando continuamente para melhorar a elasticidade da pele, mesmo durante o repouso.
                     </div>
                     <div className="text-gray-900">
-                      <strong>Redução Localizada Express:</strong> Atua especificamente nas áreas mais difíceis como abdômen, coxas e braços com resultados visíveis em 72 horas.
+                      <strong>Redução Localizada Express:</strong> Atua especificamente em áreas propensas à flacidez, como bochechas, queixo e pescoço, com resultados visíveis em 72 horas.
                     </div>
                     <div className="text-gray-900">
-                      <strong>Bloqueio Inteligente:</strong> Tecnologia patenteada que bloqueia até 85% da absorção de carboidratos e gorduras.
+                      <strong>Tecnologia Inteligente:</strong> Microcorrentes patenteadas que estimulam até 85% mais a regeneração celular e a circulação sanguínea, promovendo uma pele mais firme e tonificada.
                     </div>
                   </div>
 
                   <div className="flex flex-col sm:flex-row gap-4 mb-6">
                     <UtmLink 
-                      href="https://www.definamaxoficial.com/produto" 
+                      href="https://skin-mauve.vercel.app/" 
                       className="w-full bg-[#00C853] text-white text-center py-4 sm:py-4 px-4 rounded-lg hover:bg-[#00B848] transition-colors flex items-center justify-center gap-2 text-base sm:text-base font-semibold"
                       eventId="site-oficial-definamax"
                       onClick={handleDefinamaxCTA}
@@ -378,7 +378,7 @@ const RankingSection = memo(() => {
                       Acessar Site Oficial <span>→</span>
                     </UtmLink>
                     <UtmLink 
-                      href="https://www.definamaxoficial.com/produto" 
+                      href="https://skin-mauve.vercel.app/" 
                       className="w-full bg-[#FF6B00] text-white text-center py-4 sm:py-4 px-4 rounded-lg hover:bg-[#FF5722] transition-colors flex items-center justify-center gap-2 text-base sm:text-base font-semibold"
                       eventId="informacoes-definamax"
                       onClick={handleDefinamaxInfo}
@@ -400,7 +400,8 @@ const RankingSection = memo(() => {
             </div>
           </SectionTracker>
 
-          {/* Quarto Produto - SB2 */}
+          {/* Quarto Produto - SB2 - OCULTO */}
+          {/*
           <SectionTracker sectionId="sb2">
             <div className="mt-12 bg-white rounded-2xl shadow-xl p-8 mb-12 relative">
               <div className="absolute -top-5 left-8 bg-green-600 text-white px-6 py-2 rounded">
@@ -492,7 +493,7 @@ const RankingSection = memo(() => {
 
                   <div className="flex flex-col sm:flex-row gap-4 mb-6">
                     <UtmLink 
-                      href="https://mon.net.br/3eefqg" 
+                      href="https://skin-mauve.vercel.app/" 
                       className="w-full bg-[#00C853] text-white text-center py-4 sm:py-4 px-4 rounded-lg hover:bg-[#00B848] transition-colors flex items-center justify-center gap-2 text-base sm:text-base font-semibold"
                       eventId="site-oficial-sb2"
                       onClick={handleSB2CTA}
@@ -500,7 +501,7 @@ const RankingSection = memo(() => {
                       Acessar Site Oficial <span>→</span>
                     </UtmLink>
                     <UtmLink 
-                      href="https://mon.net.br/3eefqg" 
+                      href="https://skin-mauve.vercel.app/" 
                       className="w-full bg-[#FF6B00] text-white text-center py-4 sm:py-4 px-4 rounded-lg hover:bg-[#FF5722] transition-colors flex items-center justify-center gap-2 text-base sm:text-base font-semibold"
                       eventId="informacoes-sb2"
                       onClick={handleSB2Info}
@@ -521,8 +522,10 @@ const RankingSection = memo(() => {
               </div>
             </div>
           </SectionTracker>
+          */}
 
-          {/* Quinto Produto - NewDetox */}
+          {/* Quinto Produto - NewDetox - OCULTO */}
+          {/*
           <SectionTracker sectionId="newdetox">
             <div className="mt-12 bg-white rounded-2xl shadow-xl p-8 mb-12 relative">
               <div className="absolute -top-5 left-8 bg-green-600 text-white px-6 py-2 rounded">
@@ -533,7 +536,7 @@ const RankingSection = memo(() => {
                 <div>
                   <div className="flex items-center gap-3 mb-2">
                     <h4 className="text-xl sm:text-2xl text-gray-900 font-bold">New Detox</h4>
-                    <span className="bg-green-50 text-green-700 px-3 py-1 rounded-full text-sm">fórmula eficaz</span>
+                    <span className="bg-green-50 text-green-700 px-3 py-1 rounded-full text-sm">Creme eficaz</span>
                   </div>
                   <p className="text-gray-900 font-medium text-base sm:text-lg tracking-wide">Redução de inchaço e desintoxicação</p>
                 </div>
@@ -614,7 +617,7 @@ const RankingSection = memo(() => {
 
                   <div className="flex flex-col sm:flex-row gap-4 mb-6">
                     <UtmLink 
-                      href="https://mon.net.br/3eefce" 
+                      href="https://skin-mauve.vercel.app/" 
                       className="w-full bg-[#00C853] text-white text-center py-4 sm:py-4 px-4 rounded-lg hover:bg-[#00B848] transition-colors flex items-center justify-center gap-2 text-base sm:text-base font-semibold"
                       eventId="site-oficial-newdetox"
                       onClick={handleNewDetoxCTA}
@@ -622,7 +625,7 @@ const RankingSection = memo(() => {
                       Acessar Site Oficial <span>→</span>
                     </UtmLink>
                     <UtmLink 
-                      href="https://mon.net.br/3eefce" 
+                      href="https://skin-mauve.vercel.app/" 
                       className="w-full bg-[#FF6B00] text-white text-center py-4 sm:py-4 px-4 rounded-lg hover:bg-[#FF5722] transition-colors flex items-center justify-center gap-2 text-base sm:text-base font-semibold"
                       eventId="informacoes-newdetox"
                       onClick={handleNewDetoxInfo}
@@ -643,6 +646,7 @@ const RankingSection = memo(() => {
               </div>
             </div>
           </SectionTracker>
+          */}
 
 
 
@@ -655,8 +659,8 @@ const RankingSection = memo(() => {
                     Conclusão
                   </h2>
                   <p className="text-gray-700 text-center leading-relaxed mb-6">
-                    Esses 5 produtos representam as melhores opções para um emagrecimento seguro em 2025. 
-                    Todos possuem fórmulas naturais, resultados comprovados e garantia de satisfação.
+                    Esses 3 tratamentos representam as melhores opções para combater a flacidez facial em 2025. 
+                    Todos possuem tecnologias avançadas, resultados comprovados e garantia de satisfação.
                   </p>
                   
                   <div className="text-left max-w-2xl mx-auto">
@@ -664,24 +668,16 @@ const RankingSection = memo(() => {
                     <div className="space-y-2">
                       <div className="flex items-center gap-3 p-3 bg-green-50 rounded-lg border border-green-200">
                         <span className="bg-green-600 text-white font-bold text-sm px-2 py-1 rounded">1°</span>
-                        <span className="font-semibold text-gray-900">Phynamax</span>
+                        <span className="font-semibold text-gray-900">Antiflacidez L&L Skin</span>
                         <span className="text-sm text-green-700">- Mais recomendado</span>
                       </div>
                       <div className="flex items-center gap-3 p-2 bg-gray-50 rounded-lg">
                         <span className="bg-gray-600 text-white font-bold text-sm px-2 py-1 rounded">2°</span>
-                        <span className="font-medium text-gray-800">Ozenvitta</span>
+                        <span className="font-medium text-gray-800">A.G.E. Advanced Cream</span>
                       </div>
                       <div className="flex items-center gap-3 p-2 bg-gray-50 rounded-lg">
                         <span className="bg-gray-600 text-white font-bold text-sm px-2 py-1 rounded">3°</span>
-                        <span className="font-medium text-gray-800">Definamax</span>
-                      </div>
-                      <div className="flex items-center gap-3 p-2 bg-gray-50 rounded-lg">
-                        <span className="bg-gray-600 text-white font-bold text-sm px-2 py-1 rounded">4°</span>
-                        <span className="font-medium text-gray-800">SB2 Turbo</span>
-                      </div>
-                      <div className="flex items-center gap-3 p-2 bg-gray-50 rounded-lg">
-                        <span className="bg-gray-600 text-white font-bold text-sm px-2 py-1 rounded">5°</span>
-                        <span className="font-medium text-gray-800">New Detox</span>
+                        <span className="font-medium text-gray-800">Nuface Mini</span>
                       </div>
                     </div>
                   </div>

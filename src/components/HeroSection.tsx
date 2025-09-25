@@ -29,15 +29,16 @@ const HeroSection = () => {
             {/* Título principal */}
             <div className="text-left">
               <h1 className="hero-title text-gray-900 leading-tight mb-2">
-                <div className="text-gray-900">Os 5 Melhores Remédios para Emagrecer Aprovados pela Anvisa em 2025</div>
+                <div className="text-gray-900">3 Melhores tratamentos para flacidez facial</div>
               </h1>
+              <p className="text-lg text-gray-600 font-medium mb-4">Avaliados por especialistas</p>
             </div>
 
             {/* Imagem em mobile */}
             <div className="block lg:hidden w-full mt-[2px] mb-6">
               <div className="hero-image relative h-[450px] w-full">
                 <Image
-                  src="/hmob.png"
+                  src="/hero.png"
                   alt="Remédios para emagrecer"
                   fill
                   className="object-cover object-top"
@@ -50,36 +51,38 @@ const HeroSection = () => {
                 />
               </div>
               <p className="text-xs text-gray-500 italic mt-2 text-center">
-                Editorial: Análise imparcial dos melhores suplementos para emagrecimento de 2025
+                Editorial: Análise imparcial dos melhores tratamentos para flacidez de 2025
               </p>
             </div>
 
             {/* Subtítulo com destaque */}
             <p className="hero-text text-gray-700 leading-relaxed">
-            Já se sentiu presa na guerra contra a balança? Dietas exaustivas, academia sem resultados e remédios online que prometem eliminar gordura teimosa, mas falham? Você não está sozinha: estudos mostram que 95% das pessoas reganham o peso em 2 anos, apesar do esforço. A culpa não é sua – o problema são produtos sem provas, com revisões indicando perdas mínimas e riscos de ingredientes mal regulados.
+            Já se sentiu frustrada com a flacidez facial e rugas que te envelhecem?
             </p>
 
             <p className="hero-text text-gray-700 leading-relaxed">
-            <strong>E se você pudesse perder até 22% do peso com opções aprovadas?</strong>
+            Você já tentou cremes caros, tratamentos estéticos dolorosos ou produtos milagrosos que prometem reduzir rugas, pés de galinha e linhas de expressão, mas não entregam resultados? Você não está sozinha: estudos mostram que 90% dos produtos para flacidez facial e rejuvenescimento oferecem melhorias mínimas, com ingredientes que não penetram a pele ou causam irritações.
             </p>
 
             <p className="hero-text text-gray-700 leading-relaxed">
-            Por isso, investigamos as melhores fórmulas de 2025. Liderada pela especialista Ana Albuquerque, analisamos dezenas de remédios com base em: Resultados em emagrecimento, Ingredientes, Preço, Clientes Satisfeitos, Aprovação da Anvisa, e tempo médio de emagrecimento.
+            <strong>E se você pudesse recuperar até 35% da firmeza da pele com opções seguras e aprovadas?</strong>
             </p>
 
             <p className="hero-text text-gray-700 leading-relaxed">
-            O resultado? Um ranking dos 5 melhores remédios para emagrecer (naturais e sem riscos a saúde), incluindo a fórmula de Phynamax, considerada pelos clientes 47% mais eficaz. Continue lendo para descobrir a lista completa.
+            Por isso, investigamos os melhores tratamentos de 2025 para flacidez facial, rugas e linhas de expressão. Liderada pela Ana Albuquerque, nossa equipe avaliou tratamentos com base em: Eficácia na redução de rugas, flacidez, Custo-benefício, Satisfação de clientes.
             </p>
 
             {/* Botão CTA */}
-            <ScrollLink 
-              targetId="quiz"
-              className="hero-cta inline-flex hover:bg-[#008F35] text-white font-medium py-4 px-4 sm:px-8 rounded-lg transition-colors duration-300 items-center justify-between w-full text-sm sm:text-base"
-              onClick={handleCTAClick}
-            >
-                              <span className="flex-1 text-center leading-tight">DESCUBRA OS 5 MELHORES DE 2025</span>
-              <span className="ml-2">↓</span>
-            </ScrollLink>
+            <div className="mt-8 mb-12">
+              <ScrollLink 
+                targetId="quiz"
+                className="hero-cta inline-flex hover:bg-[#9A7209] text-white font-medium py-4 px-4 sm:px-8 rounded-lg transition-colors duration-300 items-center justify-between w-full text-sm sm:text-base"
+                onClick={handleCTAClick}
+              >
+                                <span className="flex-1 text-center leading-tight">CONHEÇA 3 MELHORES TRATAMENTOS</span>
+                <span className="ml-2">↓</span>
+              </ScrollLink>
+            </div>
 
 
           </div>
@@ -88,7 +91,7 @@ const HeroSection = () => {
       <div className="hidden lg:block">
         <div className="hero-image relative h-[400px] rounded-2xl overflow-hidden shadow-2xl">
           <Image
-            src="/hdesk.png"
+            src="/hero.png"
             alt="Remédios para emagrecer"
             fill
             className="object-cover"
@@ -101,7 +104,7 @@ const HeroSection = () => {
           />
         </div>
             <p className="text-xs text-gray-500 italic mt-3 text-center">
-              Editorial: Análise imparcial dos melhores suplementos para emagrecimento de 2025
+              Editorial: Análise imparcial dos melhores tratamentos para flacidez de 2025
             </p>
           </div>
         </div>

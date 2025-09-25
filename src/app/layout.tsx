@@ -44,7 +44,7 @@ export default function RootLayout({
         
         {/* Preload ULTRA agressivo para LCP */}
         <link rel="preload" href="/hmob.png" as="image" type="image/png" media="(max-width: 1024px)" fetchPriority="high" />
-        <link rel="preload" href="/hdesk.png" as="image" type="image/png" media="(min-width: 1024px)" fetchPriority="high" />
+        <link rel="preload" href="/hero.png" as="image" type="image/png" media="(min-width: 1024px)" fetchPriority="high" />
         
         {/* Preload de fontes críticas */}
         <link rel="preload" href="https://fonts.gstatic.com/s/inter/v12/UcCO3FwrK3iLTeHuS_fvQtMwCp50KnMw2boKoduKmMEVuLyfAZ9hiJ-Ek-_EeA.woff2" as="font" type="font/woff2" crossOrigin="anonymous" />
@@ -90,7 +90,7 @@ export default function RootLayout({
               margin: 0 0 1rem 0;
             }
             .hero-cta { 
-              background: #00A040; 
+              background: #B8860B; 
               color: white; 
               padding: 1rem 2rem; 
               border-radius: 0.5rem; 

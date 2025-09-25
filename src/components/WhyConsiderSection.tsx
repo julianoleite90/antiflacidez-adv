@@ -19,9 +19,9 @@ const WhyConsiderSection = ({ onQuizComplete }: WhyConsiderSectionProps) => {
           </h2>
           
           <p className="text-lg text-gray-700 leading-relaxed text-left max-w-4xl mx-auto">
-            Nossa análise foi rigorosa: analisamos os 140 produtos mais citados no Brasil, verificando fórmulas, dosagens, fabricantes e coletando avaliações de consumidores. Desses, 94 foram descartados por terem menos de 600mg de bioativos. Dos restantes, selecionamos os 5 melhores, priorizando tempo para emagrecimento, ingredientes que combatem a compulsão e estimulam a queima de gordura.
+            Nossa análise foi rigorosa: avaliamos os 140 tratamentos mais citados no Brasil, verificando fórmulas, concentrações, fabricantes e coletando avaliações de consumidores. Desses, 94 foram descartados por comentários ruins. Dos restantes, selecionamos os 3 melhores, priorizando tempo para resultados visíveis, ingredientes que estimulam colágeno e combatem a flacidez facial, rugas e linhas de expressão.
             <br/><br/>
-            <strong>Conheça agora os 5 melhores remédios para emagrecer em 2025</strong>
+            <strong>Conheça agora os 3 melhores tratamentos para rejuvenescimento facial em 2025!</strong>
           </p>
         </div>
       </div>

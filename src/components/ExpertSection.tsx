@@ -8,7 +8,7 @@ const ExpertSection = () => {
           <div className="grid grid-cols-3 gap-4 md:flex md:flex-row md:items-center md:gap-12">
             {/* COLUNA DA ESQUERDA - APENAS IMAGEM */}
             <div className="col-span-1 md:w-32 md:h-32 relative shrink-0">
-              <div className="w-full aspect-square rounded-full border-4 border-green-500 shadow-lg overflow-hidden">
+              <div className="w-full aspect-square rounded-full border-4 border-[#B8860B] shadow-lg overflow-hidden">
                 <Image
                   src="/medica-150.webp"
                   alt="Ana Albuquerque - Especialista em emagrecimento"
@@ -24,18 +24,18 @@ const ExpertSection = () => {
             <div className="col-span-2 md:flex-1 text-left">
               {/* Título */}
               <div className="mb-3 md:mb-4">
-                <h3 className="text-sm md:text-xl font-semibold text-green-600 mb-2">
-                  É possível emagrecer sem passar fome em 2025. Mas, tome cuidado com fórmulas que prometem milagres, sem comprovação.
+                <h3 className="text-sm md:text-xl font-semibold text-[#B8860B] mb-2">
+                  É possível combater a flacidez facial, rugas e linhas de expressão em 2025 sem tratamentos invasivos ou promessas falsas.
                 </h3>
               </div>
 
               {/* Descrição */}
               <div className="text-gray-700">
                 <p className="text-xs md:text-base leading-relaxed mb-3">
-                  &ldquo;Em nossa lista, todos os produtos foram avaliados com rigor, testes e foi coletado depoimento de clientes reais.&rdquo;
+                  &ldquo;Em nossa lista, todos os tratamentos foram avaliados com rigor, testes clínicos e depoimentos de clientes reais.&rdquo;
                 </p>
                 <p className="text-xs md:text-sm font-medium text-gray-800">
-                  Ana Albuquerque - Especialista em emagrecimento
+                  Ana Albuquerque - Especialista
                 </p>
               </div>
             </div>
