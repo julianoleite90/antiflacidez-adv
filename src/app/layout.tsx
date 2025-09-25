@@ -12,16 +12,16 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Os 5 Melhores Remédios para Emagrecer Aprovados pela Anvisa em 2025",
-  description: "Análise completa dos remédios mais eficazes para emagrecer em 2025. Descubra quais são os produtos que realmente funcionam.",
-  keywords: "remédios para emagrecer, emagrecimento, perda de peso, suplementos emagrecedores",
+  title: "Os 5 Melhores tratamentos para flacidez",
+  description: "Análise completa dos tratamentos mais eficazes para flacidez em 2025. Descubra quais são os produtos que realmente funcionam.",
+  keywords: "tratamentos para flacidez, flacidez facial, lifting facial, produtos anti-flacidez",
   robots: "index, follow",
   manifest: "/manifest.json",
   openGraph: {
     type: "website",
-    title: "Os 5 Melhores Remédios para Emagrecer Aprovados pela Anvisa em 2025",
-    description: "Análise completa dos remédios mais eficazes para emagrecer em 2025. Descubra quais são os produtos que realmente funcionam.",
-    siteName: "Análise de Emagrecedores",
+    title: "Os 5 Melhores tratamentos para flacidez",
+    description: "Análise completa dos tratamentos mais eficazes para flacidez em 2025. Descubra quais são os produtos que realmente funcionam.",
+    siteName: "Análise de Tratamentos para Flacidez",
   },
 };
 
