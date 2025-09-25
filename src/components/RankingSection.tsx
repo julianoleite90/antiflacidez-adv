@@ -123,7 +123,7 @@ const RankingSection = memo(() => {
 
                   <div className="flex flex-col sm:flex-row gap-4 mb-6">
                     <UtmLink 
-                      href="https://skin-mauve.vercel.app/" 
+                      href="https://www.anti-flacidez.com/" 
                       className="w-full bg-[#00C853] text-white text-center py-4 sm:py-4 px-4 rounded-lg hover:bg-[#00B848] transition-colors flex items-center justify-center gap-2 text-base sm:text-base font-semibold"
                       eventId="site-oficial-phynamax"
                       onClick={handlePhynamaxCTA}
@@ -131,7 +131,7 @@ const RankingSection = memo(() => {
                       Acessar Site Oficial <span>→</span>
                     </UtmLink>
                     <UtmLink 
-                      href="https://skin-mauve.vercel.app/" 
+                      href="https://www.anti-flacidez.com/" 
                       className="w-full bg-[#FF6B00] text-white text-center py-4 sm:py-4 px-4 rounded-lg hover:bg-[#FF5722] transition-colors flex items-center justify-center gap-2 text-base sm:text-base font-semibold"
                       eventId="informacoes-phynamax"
                       onClick={handlePhynamaxInfo}
@@ -245,7 +245,7 @@ const RankingSection = memo(() => {
 
                   <div className="flex flex-col sm:flex-row gap-4 mb-6">
                     <UtmLink 
-                      href="https://skin-mauve.vercel.app/" 
+                      href="https://www.anti-flacidez.com/" 
                       className="w-full bg-[#00C853] text-white text-center py-4 sm:py-4 px-4 rounded-lg hover:bg-[#00B848] transition-colors flex items-center justify-center gap-2 text-base sm:text-base font-semibold"
                       eventId="site-oficial-ozenvitta"
                       onClick={handleOzenvittaCTA}
@@ -253,7 +253,7 @@ const RankingSection = memo(() => {
                       Acessar Site Oficial <span>→</span>
                     </UtmLink>
                     <UtmLink 
-                      href="https://skin-mauve.vercel.app/" 
+                      href="https://www.anti-flacidez.com/" 
                       className="w-full bg-[#FF6B00] text-white text-center py-4 sm:py-4 px-4 rounded-lg hover:bg-[#FF5722] transition-colors flex items-center justify-center gap-2 text-base sm:text-base font-semibold"
                       eventId="informacoes-ozenvitta"
                       onClick={handleOzenvittaInfo}
@@ -366,7 +366,7 @@ const RankingSection = memo(() => {
 
                   <div className="flex flex-col sm:flex-row gap-4 mb-6">
                     <UtmLink 
-                      href="https://skin-mauve.vercel.app/" 
+                      href="https://www.anti-flacidez.com/" 
                       className="w-full bg-[#00C853] text-white text-center py-4 sm:py-4 px-4 rounded-lg hover:bg-[#00B848] transition-colors flex items-center justify-center gap-2 text-base sm:text-base font-semibold"
                       eventId="site-oficial-definamax"
                       onClick={handleDefinamaxCTA}
@@ -374,7 +374,7 @@ const RankingSection = memo(() => {
                       Acessar Site Oficial <span>→</span>
                     </UtmLink>
                     <UtmLink 
-                      href="https://skin-mauve.vercel.app/" 
+                      href="https://www.anti-flacidez.com/" 
                       className="w-full bg-[#FF6B00] text-white text-center py-4 sm:py-4 px-4 rounded-lg hover:bg-[#FF5722] transition-colors flex items-center justify-center gap-2 text-base sm:text-base font-semibold"
                       eventId="informacoes-definamax"
                       onClick={handleDefinamaxInfo}
@@ -489,7 +489,7 @@ const RankingSection = memo(() => {
 
                   <div className="flex flex-col sm:flex-row gap-4 mb-6">
                     <UtmLink 
-                      href="https://skin-mauve.vercel.app/" 
+                      href="https://www.anti-flacidez.com/" 
                       className="w-full bg-[#00C853] text-white text-center py-4 sm:py-4 px-4 rounded-lg hover:bg-[#00B848] transition-colors flex items-center justify-center gap-2 text-base sm:text-base font-semibold"
                       eventId="site-oficial-sb2"
                       onClick={handleSB2CTA}
@@ -497,7 +497,7 @@ const RankingSection = memo(() => {
                       Acessar Site Oficial <span>→</span>
                     </UtmLink>
                     <UtmLink 
-                      href="https://skin-mauve.vercel.app/" 
+                      href="https://www.anti-flacidez.com/" 
                       className="w-full bg-[#FF6B00] text-white text-center py-4 sm:py-4 px-4 rounded-lg hover:bg-[#FF5722] transition-colors flex items-center justify-center gap-2 text-base sm:text-base font-semibold"
                       eventId="informacoes-sb2"
                       onClick={handleSB2Info}
@@ -613,7 +613,7 @@ const RankingSection = memo(() => {
 
                   <div className="flex flex-col sm:flex-row gap-4 mb-6">
                     <UtmLink 
-                      href="https://skin-mauve.vercel.app/" 
+                      href="https://www.anti-flacidez.com/" 
                       className="w-full bg-[#00C853] text-white text-center py-4 sm:py-4 px-4 rounded-lg hover:bg-[#00B848] transition-colors flex items-center justify-center gap-2 text-base sm:text-base font-semibold"
                       eventId="site-oficial-newdetox"
                       onClick={handleNewDetoxCTA}
@@ -621,7 +621,7 @@ const RankingSection = memo(() => {
                       Acessar Site Oficial <span>→</span>
                     </UtmLink>
                     <UtmLink 
-                      href="https://skin-mauve.vercel.app/" 
+                      href="https://www.anti-flacidez.com/" 
                       className="w-full bg-[#FF6B00] text-white text-center py-4 sm:py-4 px-4 rounded-lg hover:bg-[#FF5722] transition-colors flex items-center justify-center gap-2 text-base sm:text-base font-semibold"
                       eventId="informacoes-newdetox"
                       onClick={handleNewDetoxInfo}
