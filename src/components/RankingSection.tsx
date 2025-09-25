@@ -15,11 +15,7 @@ const RankingSection = memo(() => {
   const handleOzenvittaCTA = () => trackProductCTA('A.G.E. Advanced Cream', 2);
   const handleOzenvittaInfo = () => trackProductInfo('A.G.E. Advanced Cream', 2);
   
-  const handleSB2CTA = () => trackProductCTA('SB2', 4);
-  const handleSB2Info = () => trackProductInfo('SB2', 4);
-  
-  const handleNewDetoxCTA = () => trackProductCTA('NewDetox', 5);
-  const handleNewDetoxInfo = () => trackProductInfo('NewDetox', 5);
+  // Handlers removidos - produtos 4 e 5 foram ocultos
 
   return (
     <section className="bg-gradient-to-b from-gray-50 to-white pt-2" id="ranking">
