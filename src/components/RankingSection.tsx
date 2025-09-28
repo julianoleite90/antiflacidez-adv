@@ -305,7 +305,7 @@ const RankingSection = memo(() => {
                 <div className="w-full sm:w-64 shrink-0">
                   <Image
                     src="/definamax-400.png"
-                    alt="Nuface Mini: Tecnologia avançada para redução de medidas"
+                    alt="Nuface Mini: Tecnologia avançada para rejuvenescimento"
                     width={256}
                     height={384}
                     className="rounded-lg mx-auto sm:mx-0"
@@ -314,13 +314,13 @@ const RankingSection = memo(() => {
                     quality={85}
                   />
                   <p className="text-xs text-gray-600 text-center mt-2">
-                    Nuface Mini: Tecnologia avançada para redução de medidas
+                    Nuface Mini: Tecnologia avançada para rejuvenescimento
                   </p>
                 </div>
 
                 <div className="flex-1">
                   <h5 className="text-2xl font-bold text-gray-900 mb-4">
-                    Por que o Nuface Mini é considerado eficaz para o emagrecimento?
+                    Por que o Nuface Mini é considerado eficaz para a Flacidez Facial?
                   </h5>
 
                   <p className="text-gray-700 mb-6">
